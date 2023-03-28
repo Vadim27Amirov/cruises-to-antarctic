@@ -1,4 +1,5 @@
 .about {
+  font-family: $ff-montserrat;
   margin: 0 auto;
   padding: 113px 0 145px;
 
@@ -70,6 +71,10 @@
 }
 
 .about__text-wrapper p {
+  font-family: $ff-montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   max-width: 512px;
   min-width: 431px;
   margin: 0;
