@@ -19,14 +19,14 @@
     <header class="header">
       <div class="container header__wrapper">
         <a class="header__logo-link">
-          <svg width="70" height="38" viewBox="0 0 70 38" xmlns="http://www.w3.org/2000/svg">
+          <svg width="70" height="38" viewBox="0 0 70 38" fill="none" xmlns="http://www.w3.org/2000/svg">
             <use href="img/sprite.svg#logo"></use>
           </svg>
         </a>
         <nav class="header__nav">
           <ul class="header__nav-list">
             <li class="header__nav-item">
-              <a class="header__link" href="#">Преимущества</a>
+              <a class="header__link" href="#advantages">Преимущества</a>
             </li>
             <li class="header__nav-item">
               <a class="header__link" href="#">Направления</a>
@@ -73,9 +73,42 @@
               <source media="(max-width: 1023px)"
                 srcset="img/image-penguins-tablet.jpg 1x, img/image-penguins-tablet@2x.jpg 2x">
               <img src="img/image-penguins-desktop.jpg" srcset="img/image-penguins-desktop@2x.jpg 2x"
-                alt="Пингвины на леднике" width="560" height="301" loading="lazy">
+                alt="Пингвины на леднике" width="560" height="301">
             </picture>
           </div>
+        </div>
+      </section>
+      <section class="advantages" id="advantages">
+        <div class="advantages__wrapper container">
+          <picture>
+          </picture>
+          <h2 class="advantages__title">Преимущества</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <svg width="27" height="32">
+                <use xlink:href="img/sprite.svg#icon-liner"></use>
+              </svg>
+              <h3>Небольшой круизный лайнер</h3>
+              <p>Круизный лайнер, рассчитанный всего лишь на&nbsp;300&nbsp;гостей, поможет избежать шума и&nbsp;очередей
+                и&nbsp;даст возможность насладиться видами и&nbsp;природой.</p>
+            </li>
+            <li class="advantages__item">
+              <svg width="38" height="32">
+                <use xlink:href="img/sprite.svg#icon-all-inclusive"></use>
+              </svg>
+              <h3>Система все&nbsp;включено</h3>
+              <p>Все наши круизы работают по&nbsp;системе &laquo;Все Включено&raquo;.<br>Великолепные блюда
+                и&nbsp;безлимитный бар доступны для&nbsp;вас 24&nbsp;часа.</p>
+            </li>
+            <li class="advantages__item">
+              <svg width="44" height="32">
+                <use xlink:href="img/sprite.svg#icon-boat"></use>
+              </svg>
+              <h3>Экскурсионные туры на&nbsp;Zodiac</h3>
+              <p>Экскурсионные туры к&nbsp;берегам Антарктиды совершаются на&nbsp;оборудованных лодках типа Zodiack
+                c&nbsp;опытными экскурсоводами.</p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
