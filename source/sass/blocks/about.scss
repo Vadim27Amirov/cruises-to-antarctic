@@ -92,8 +92,8 @@
   }
 }
 
-.about__content {
-  margin: 0;
+.about__content img {
+  width: 100%;
 
   @include vp-1023 {
     min-width: 324px;
