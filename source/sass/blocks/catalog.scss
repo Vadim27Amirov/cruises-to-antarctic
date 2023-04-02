@@ -16,12 +16,13 @@
   align-items: center;
 }
 
-.catalog__title {
+.catalog h2 {
   font-family: $ff-montserrat;
   margin: 0 0 49px;
   font-weight: 600;
   font-size: 28px;
   line-height: 42px;
+  color: $color-tangaroa;
 
   @include vp-1023 {
     font-size: 26px;

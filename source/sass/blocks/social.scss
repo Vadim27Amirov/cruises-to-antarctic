@@ -4,6 +4,10 @@
   align-items: center;
   justify-content: flex-end;
   min-width: 133px;
+
+  @include vp-767 {
+    display: block;
+  }
 }
 
 .social__link {
@@ -27,6 +31,6 @@
 
   @include vp-767 {
     margin-left: 0;
-    margin-right: 21px;
+    margin-right: 16px;
   }
 }
