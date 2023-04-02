@@ -632,7 +632,7 @@ button,
 
 .container {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1260px;
   margin: 0 auto;
   padding: 0 50px;
 }
@@ -646,9 +646,10 @@ button,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  line-height: 11px;
+  line-height: 21px;
   text-align: center;
   color: #011c40;
   background-color: #f9fbfd;
@@ -1499,6 +1500,7 @@ button,
 }
 
 .footer__link {
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
   line-height: 20px;
   color: inherit;
@@ -1569,7 +1571,7 @@ button,
 .about {
   font-family: "Montserrat", "Arial", sans-serif;
   margin: 0 auto;
-  padding: 113px 0 145px;
+  padding: 124px 0 145px;
 }
 
 .about__wrapper {
@@ -1597,6 +1599,7 @@ button,
   font-weight: 600;
   font-size: 28px;
   line-height: 42px;
+  color: #011c40;
 }
 
 .about__text-wrapper p {
@@ -1608,6 +1611,7 @@ button,
   min-width: 431px;
   margin: 0;
   padding-bottom: 12px;
+  color: #011c40;
 }
 
 .about__content img {
@@ -1637,12 +1641,13 @@ button,
   align-items: center;
 }
 
-.advantages__title {
+.advantages h2 {
   font-family: "Montserrat", "Arial", sans-serif;
   margin: 0 0 49px;
   font-weight: 600;
   font-size: 28px;
   line-height: 42px;
+  color: #011c40;
 }
 
 .advantages__list {
@@ -1671,6 +1676,7 @@ button,
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
+  color: #011c40;
 }
 
 .advantages__item p {
@@ -1679,6 +1685,11 @@ button,
   margin: 0;
   font-size: 14px;
   line-height: 20px;
+  color: #011c40;
+}
+
+.advantages__item-all-inclusive {
+  padding: 30px 45px 45px 30px;
 }
 
 .catalog {
@@ -1698,12 +1709,13 @@ button,
   align-items: center;
 }
 
-.catalog__title {
+.catalog h2 {
   font-family: "Montserrat", "Arial", sans-serif;
   margin: 0 0 49px;
   font-weight: 600;
   font-size: 28px;
   line-height: 42px;
+  color: #011c40;
 }
 
 .catalog__list {
@@ -1871,14 +1883,17 @@ button,
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
+  color: #011c40;
 }
 
 .booking__inner p {
+  font-family: "Montserrat", "Arial", sans-serif;
   margin: 0;
-  padding: 0 0 5px;
+  padding: 0 10px 5px 0;
   width: 355px;
   font-size: 18px;
   line-height: 27px;
+  color: #011c40;
 }
 
 .booking__inner p br {
@@ -1993,6 +2008,7 @@ button,
 }
 
 .form__control-label {
+  font-family: "Montserrat", "Arial", sans-serif;
   display: block;
   padding-top: 3px;
   font-size: 10px;
@@ -2020,6 +2036,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
 }
 
 .form__button {
+  padding: 10px 89px 12px 90px;
   width: 303px;
 }
 
@@ -2054,6 +2071,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+  color: #011c40;
 }
 
 .contacts__address,
@@ -2074,11 +2092,13 @@ input[type=checkbox]:checked + .form__control-mark::before {
 .contacts__address a,
 .contacts__phone p,
 .contacts__phone a {
+  font-family: "Montserrat", "Arial", sans-serif;
   margin: 0;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
   font-style: normal;
+  color: #011c40;
 }
 
 .contacts__address {
@@ -2141,7 +2161,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
   }
 
   .header__wrapper {
-    margin: 30px auto;
+    margin: 28px auto;
   }
 
   .header__logo-link svg {
@@ -2206,8 +2226,8 @@ input[type=checkbox]:checked + .form__control-mark::before {
   }
 
   .promo__wrapper {
-    padding-top: 271px;
-    padding-bottom: 276px;
+    padding-top: 269px;
+    padding-bottom: 275px;
   }
 
   .about {
@@ -2222,7 +2242,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
 
   .about__text-wrapper {
     margin: 0 auto;
-    padding: 0 25px 0 0s;
+    padding-right: 30px;
   }
 
   .about__text-wrapper h2 {
@@ -2248,7 +2268,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
     padding: 90px 0 100px;
   }
 
-  .advantages__title {
+  .advantages h2 {
     font-size: 26px;
     line-height: 39px;
   }
@@ -2272,11 +2292,19 @@ input[type=checkbox]:checked + .form__control-mark::before {
     line-height: 25px;
   }
 
+  .advantages__item-boat {
+    padding: 26px 19px 19px 20px;
+  }
+
+  .advantages__item-boat h3 {
+    margin-bottom: 20px;
+  }
+
   .catalog {
     padding: 90px 0 100px;
   }
 
-  .catalog__title {
+  .catalog h2 {
     font-size: 26px;
     line-height: 39px;
   }
@@ -2538,13 +2566,17 @@ input[type=checkbox]:checked + .form__control-mark::before {
   }
 
   .footer__social {
-    margin-top: 5px;
+    margin-top: 7px;
     margin-left: -3px;
+  }
+
+  .social {
+    display: block;
   }
 
   .social__link {
     margin-left: 0;
-    margin-right: 21px;
+    margin-right: 16px;
   }
 
   .promo {
@@ -2601,11 +2633,11 @@ input[type=checkbox]:checked + .form__control-mark::before {
 
   .advantages {
     background-image: url("../img/background/background-advantages-mobile.jpg"), url("../img/background/background-advantages-mobile.webp");
-    padding: 71px 0 65px;
+    padding: 58px 0 65px;
   }
 
-  .advantages__title {
-    margin-bottom: 43px;
+  .advantages h2 {
+    margin-bottom: 28px;
     font-size: 24px;
     line-height: 36px;
   }
@@ -2632,7 +2664,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
     padding: 57px 0 65px;
   }
 
-  .catalog__title {
+  .catalog h2 {
     margin-bottom: 30px;
     font-size: 24px;
     line-height: 36px;
@@ -2665,7 +2697,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
 
   .booking {
     min-height: 760px;
-    padding: 56px 0 69px;
+    padding: 59px 0 67px;
     background-image: url("../img/background/background-booking-mobile.jpg"), url("../img/background/background-booking-mobile.webp");
   }
 
@@ -2705,7 +2737,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
   .form {
     max-width: 737px;
     min-width: 290px;
-    width: auto;
+    width: 100%;
     padding: 36px 30px 40px;
   }
 
@@ -2744,6 +2776,7 @@ input[type=checkbox]:checked + .form__control-mark::before {
   }
 
   .form__button {
+    padding: 10px 53px 12px;
     width: 100%;
   }
 
