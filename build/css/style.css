@@ -1287,7 +1287,7 @@ button,
   color: #011c40;
 }
 
-br {
+.booking__wrapper br {
   display: none;
 }
 
