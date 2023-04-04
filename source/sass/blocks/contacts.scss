@@ -28,29 +28,29 @@
 }
 
 .contacts__map-wrapper {
-  background-image: url("../img/background/background-map-no-js-desktop.png"), url("../img/background/background-map-no-js-desktop.webp");
+  background-image: url("../img/background/background-map-no-js-desktop.webp");
   width: 100%;
   height: 306px;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/background/background-map-no-js-desktop@2x.png"), url("../img/background/background-map-no-js-desktop@2x.webp");
+    background-image: url("../img/background/background-map-no-js-desktop@2x.webp");
   }
 
   @include vp-1023 {
-    background-image: url("../img/background/background-map-no-js-tablet.png"), url("../img/background/background-map-no-js-tablet.webp");
+    background-image: url("../img/background/background-map-no-js-tablet.webp");
     height: 335px;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/background/background-map-no-js-tablet@2x.png"), url("../img/background/background-map-no-js-tablet@2x.webp");
+      background-image: url("../img/background/background-map-no-js-tablet@2x.webp");
     }
   }
 
   @include vp-767 {
-    background-image: url("../img/background/background-map-no-js-mobile.png"), url("../img/background/background-map-no-js-mobile.webp");
+    background-image: url("../img/background/background-map-no-js-mobile.webp");
     height: 316px;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/background/background-map-no-js-mobile@2x.png"), url("../img/background/background-map-no-js-mobile@2x.webp");
+      background-image: url("../img/background/background-map-no-js-mobile@2x.webp");
     }
   }
 }

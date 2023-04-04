@@ -1,29 +1,29 @@
 .promo {
   position: relative;
-  background-image: url("../img/background/background-main-desktop.jpg"), url("../img/background/background-main-desktop.webp");
+  background-image: url("../img/background/background-main-desktop.webp");
   background-size: cover;
   background-color: $color-prussian-blue;
   color: $color-alice-blue;
   font-family: $ff-montserrat;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/background/background-main-desktop@2x.jpg"), url("../img/background/background-main-desktop@2x.webp");
+    background-image: url("../img/background/background-main-desktop@2x.webp");
   }
 
   @include vp-1023 {
-    background-image: url("../img/background/background-main-tablet.jpg"), url("../img/background/background-main-tablet.webp");
+    background-image: url("../img/background/background-main-tablet.webp");
     background-size: cover;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/background/background-main-tablet@2x.jpg"), url("../img/background/background-main-tablet@2x.webp");
+      background-image: url("../img/background/background-main-tablet@2x.webp");
     }
   }
 
   @include vp-767 {
-    background-image: url("../img/background/background-main-mobile.jpg"), url("../img/background/background-main-mobile.webp");
+    background-image: url("../img/background/background-main-mobile.webp");
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/background/background-main-mobile@2x.jpg"), url("../img/background/background-main-mobile@2x.webp");
+      background-image: url("../img/background/background-main-mobile@2x.webp");
     }
   }
 
