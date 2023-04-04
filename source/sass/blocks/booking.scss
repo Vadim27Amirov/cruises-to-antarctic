@@ -3,32 +3,56 @@
   margin: 0 auto;
   padding: 50px 0;
   background-color: #bfe1ff;
-  background-image: url("../img/background/background-booking-desktop.webp");
+  background-image: url("../img/background/background-booking-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
+  @supports (background-image: url("../img/background/background-booking-desktop.webp")) {
+    background-image: url("../img/background/background-booking-desktop.webp");
+  }
+
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/background/background-booking-desktop@2x.webp");
+    background-image: url("../img/background/background-booking-desktop@2x.jpg");
+
+    @supports (background-image: url("../img/background/background-booking-desktop@2x.webp")) {
+      background-image: url("../img/background/background-booking-desktop@2x.webp");
+    }
   }
 
   @include vp-1023 {
     min-height: 805px;
     padding: 88px 0;
-    background-image: url("../img/background/background-booking-tablet.webp");
+    background-image: url("../img/background/background-booking-tablet.jpg");
+
+    @supports (background-image: url("../img/background/background-booking-tablet.webp")) {
+      background-image: url("../img/background/background-booking-tablet.webp");
+    }
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/background/background-booking-tablet@2x.webp");
+      background-image: url("../img/background/background-booking-tablet@2x.jpg");
+
+      @supports (background-image: url("../img/background/background-booking-tablet@2x.webp")) {
+        background-image: url("../img/background/background-booking-tablet@2x.webp");
+      }
     }
   }
 
   @include vp-767 {
     min-height: 760px;
     padding: 59px 0 67px;
-    background-image: url("../img/background/background-booking-mobile.webp");
+    background-image: url("../img/background/background-booking-mobile.jpg");
+
+    @supports (background-image: url("../img/background/background-booking-mobile.webp")) {
+      background-image: url("../img/background/background-booking-mobile.webp");
+    }
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/background/background-booking-mobile@2x.webp");
+      background-image: url("../img/background/background-booking-mobile@2x.jpg");
+
+      @supports (background-image: url("../img/background/background-booking-mobile@2x.webp")) {
+        background-image: url("../img/background/background-booking-mobile@2x.webp");
+      }
     }
   }
 }
@@ -118,19 +142,15 @@
     line-height: 22px;
     align-items: center;
     text-align: center;
-
-    & br {
-      display: block;
-    }
   }
 }
 
-.booking__inner br {
+br {
   display: none;
+}
 
+.booking__inner br {
   @include vp-767 {
-    br {
-      display: block;
-    }
+    display: block;
   }
 }

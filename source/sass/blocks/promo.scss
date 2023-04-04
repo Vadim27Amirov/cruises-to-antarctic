@@ -1,28 +1,52 @@
 .promo {
   position: relative;
-  background-image: url("../img/background/background-main-desktop.webp");
+  background-image: url("../img/background/background-main-desktop.jpg");
   background-size: cover;
   background-color: $color-prussian-blue;
   color: $color-alice-blue;
   font-family: $ff-montserrat;
 
+  @supports (background-image: url("../img/background/background-main-desktop.webp")) {
+    background-image: url("../img/background/background-main-desktop.webp");
+  }
+
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/background/background-main-desktop@2x.webp");
+    background-image: url("../img/background/background-main-desktop@2x.jpg");
+
+    @supports (background-image: url("../img/background/background-main-desktop@2x.webp")) {
+      background-image: url("../img/background/background-main-desktop@2x.webp");
+    }
   }
 
   @include vp-1023 {
-    background-image: url("../img/background/background-main-tablet.webp");
+    background-image: url("../img/background/background-main-tablet.jpg");
     background-size: cover;
 
-    @media (min-resolution: 2dppx) {
+    @supports (background-image: url("../img/background/background-main-tablet.webp")) {
+      background-image: url("../img/background/background-main-tablet.webp");
+    }
+  }
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/background/background-main-tablet@2x.jpg");
+
+    @supports (background-image: url("../img/background/background-main-tablet@2x.webp")) {
       background-image: url("../img/background/background-main-tablet@2x.webp");
     }
   }
 
   @include vp-767 {
-    background-image: url("../img/background/background-main-mobile.webp");
+    background-image: url("../img/background/background-main-mobile.jpg");
 
-    @media (min-resolution: 2dppx) {
+    @supports (background-image: url("../img/background/background-main-mobile.webp")) {
+      background-image: url("../img/background/background-main-mobile.webp");
+    }
+  }
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/background/background-main-mobile@2x.jpg");
+
+    @supports (background-image: url("../img/background/background-main-mobile@2x.webp")) {
       background-image: url("../img/background/background-main-mobile@2x.webp");
     }
   }
