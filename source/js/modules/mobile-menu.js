@@ -52,7 +52,7 @@ const openMenu = () => {
 
 
 export const mobileMenu = () => {
-  if (navMainMenu) {
+  if (navMainMenu && navMainToggle && header) {
     navMainToggle.classList.add('header__menu-toggle--js-menu');
     navMainMenu.classList.add('header__wrapper--close');
     header.classList.add('header--close');
